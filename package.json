@@ -1,0 +1,12 @@
+{
+  "name": "cobweb-compose",
+  "version": "0.0.1",
+  "description": "Middleware composition utility",
+  "repository": "dbalcomb/cobweb-compose",
+  "keywords": [
+    "cobweb",
+    "middleware",
+    "compose"
+  ],
+  "license": "MIT"
+}
