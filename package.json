@@ -1,6 +1,6 @@
 {
   "name": "cobweb-compose",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Middleware composition utility",
   "repository": "dbalcomb/cobweb-compose",
   "keywords": [
