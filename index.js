@@ -1,4 +1,3 @@
-
 module.exports = compose;
 
 function compose (middleware) {
@@ -9,7 +8,7 @@ function compose (middleware) {
 
     while (i--) {
       type = typeof middleware[i] === 'object';
-      curr = type ? middleware[i].middleware : middleware[i];
+      curr = type ? middleware[i].compose() : middleware[i];
       prev = curr.call(this, prev);
     }
 
